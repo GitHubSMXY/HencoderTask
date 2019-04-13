@@ -82,9 +82,9 @@ class PieGraphView : View {
                 val distY = mTouchDownY - mRect.centerY()
                 var degrees = Math.toDegrees(Math.atan((distY / distX).toDouble())).toFloat()
                 if (distX < 0) {
-                    degrees = 180F + degrees
+                    degrees += 180F
                 } else if (distY < 0) {
-                    degrees = 360F + degrees
+                    degrees += 360F
                 }
 
                 var startAngle = 0F
