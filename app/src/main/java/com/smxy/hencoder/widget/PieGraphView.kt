@@ -5,7 +5,6 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.RectF
 import android.util.AttributeSet
-import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 
@@ -23,7 +22,7 @@ class PieGraphView : View {
     }
 
     private var mPaint: Paint = Paint()
-    private val mData = intArrayOf(45, 45, 45, 45, 45, 45, 45, 45)
+    private val mData = intArrayOf(20, 30, 40, 50, 60, 80, 60, 90)
 
     private val COLORS = intArrayOf(
         0xffff8e01.toInt(),
@@ -79,8 +78,27 @@ class PieGraphView : View {
                 mTouchDownX = event.x
                 mTouchDownY = event.y
                 //计算是否落在区域
-                val degrees = Math.toDegrees(Math.atan(((mTouchDownY - mRect.centerY()) / (mTouchDownX - mRect.centerX())).toDouble()))
-                Log.d("AA", "degree:" + degrees)
+                val distX = mTouchDownX - mRect.centerX()
+                val distY = mTouchDownY - mRect.centerY()
+                var degrees = Math.toDegrees(Math.atan((distY / distX).toDouble())).toFloat()
+                if (distX < 0) {
+                    degrees = 180F + degrees
+                } else if (distY < 0) {
+                    degrees = 360F + degrees
+                }
+
+                var startAngle = 0F
+                var endAngle: Float
+                var startNum = 0
+                for (index in mData.indices) {
+                    startNum += mData[index]
+                    endAngle = startNum * 360F / mData.sum()
+                    if (degrees in startAngle..endAngle) {
+                        mFocusDataIndex = index
+                        invalidate()
+                    }
+                    startAngle = endAngle
+                }
             }
         }
         return super.onTouchEvent(event)
