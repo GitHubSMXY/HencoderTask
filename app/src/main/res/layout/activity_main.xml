@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--<com.smxy.hencoder.widget.ScaleView-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:sv_progress="50"-->
+            <!--app:sv_scale_width="3px"-->
+            <!--app:sv_pointer_width="8px"-->
+            <!--app:sv_pointer_length="160px"-->
+            <!--android:layout_width="500px"-->
+            <!--android:layout_height="500px"/>-->
+
+    <!--<com.smxy.hencoder.widget.ScaleView2-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:sv_progress="50"-->
+            <!--app:sv_scale_width="3px"-->
+            <!--app:sv_pointer_width="8px"-->
+            <!--app:sv_pointer_length="160px"-->
+            <!--android:layout_width="500px"-->
+            <!--android:layout_height="500px"/>-->
+
+    <com.smxy.hencoder.widget.PieGraphView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

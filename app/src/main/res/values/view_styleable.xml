@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleView">
+        <attr name="sv_progress" format="integer"/>
+        <attr name="sv_max" format="integer"/>
+        <attr name="sv_pointer_length" format="dimension"/>
+        <attr name="sv_pointer_width" format="dimension"/>
+        <attr name="sv_scale_width" format="dimension"/>
+        <attr name="sv_sweep_angle" format="float"/>
+
+    </declare-styleable>
+</resources>
