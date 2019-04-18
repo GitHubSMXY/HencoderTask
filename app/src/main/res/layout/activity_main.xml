@@ -23,7 +23,11 @@
             <!--android:layout_width="500px"-->
             <!--android:layout_height="500px"/>-->
 
-    <com.smxy.hencoder.widget.PieGraphView
+    <!--<com.smxy.hencoder.widget.PieGraphView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+    <com.smxy.hencoder.widget.AvaterPage
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
