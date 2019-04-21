@@ -16,6 +16,10 @@ Hencoder课程练习
 ![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/RoundImageView.png)
 
 
+## TextAlignment.gif
+
+![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/TextAlignment.png)
+
 ## AvatarPage.gif
 
 ![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/AvatarPage.gif)
