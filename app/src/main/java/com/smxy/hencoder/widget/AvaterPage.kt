@@ -7,12 +7,13 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import com.smxy.hencoder.R
+import com.smxy.hencoder.util.Util
 
 class AvaterPage: View {
     lateinit var mCamera: Camera
     var mPaint: Paint = Paint(Paint.ANTI_ALIAS_FLAG)
     lateinit var mBitmap:Bitmap
-    var IMAGE_WIDTH = 600F
+    var IMAGE_WIDTH = Util.dip2px(600F).toFloat()
     val PADDING = 200F
     var mRotation:Float = 0.0f
 

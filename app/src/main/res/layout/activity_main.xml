@@ -27,7 +27,10 @@
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"/>-->
 
-    <com.smxy.hencoder.widget.AvaterPage
+    <!--<com.smxy.hencoder.widget.AvaterPage-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp"/>-->
+    <com.smxy.hencoder.widget.TextImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 

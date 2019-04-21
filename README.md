@@ -15,3 +15,8 @@ Hencoder课程练习
 
 ![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/AvatarPage.png)
 
+
+## TextImageView.png
+
+![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/TextImageView.png)
+
