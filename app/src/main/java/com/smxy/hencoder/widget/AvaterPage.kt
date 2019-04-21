@@ -42,10 +42,10 @@ class AvaterPage: View {
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
         IMAGE_WIDTH = width - PADDING * 2
-        mBitmap = getAvatar(IMAGE_WIDTH)
+        mBitmap = getBitmap(IMAGE_WIDTH)
     }
 
-    fun getAvatar(width:Float):Bitmap {
+    fun getBitmap(width:Float):Bitmap {
         val options = BitmapFactory.Options()
         options.inJustDecodeBounds = true
         BitmapFactory.decodeResource(resources, R.mipmap.demo,options)
