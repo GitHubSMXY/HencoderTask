@@ -3,7 +3,6 @@ package com.smxy.hencoder.widget
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
-import android.graphics.Rect
 import android.util.AttributeSet
 import android.view.View
 import com.smxy.hencoder.util.Util
@@ -11,7 +10,7 @@ import com.smxy.hencoder.util.Util
 class TextAlignmentView : View {
     var mPaint: Paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
-    val RADIUS: Int = Util.dip2px(150F)
+    val RADIUS = Util.dip2px(150F)
 
     constructor(context: Context, attributeSet: AttributeSet) : super(context, attributeSet) {
         mPaint.strokeCap = Paint.Cap.ROUND
@@ -57,7 +56,7 @@ class TextAlignmentView : View {
 
 
         //辅助线
-        var lineOffSet = 0F
+        var lineOffSet: Float
         mPaint.strokeWidth = 1F
 
         mPaint.color = 0xffff0000.toInt()

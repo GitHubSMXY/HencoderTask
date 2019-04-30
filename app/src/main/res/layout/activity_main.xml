@@ -38,7 +38,14 @@
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"/>-->
 
-    <com.smxy.hencoder.widget.TextAlignmentView
+    <!--<com.smxy.hencoder.widget.TextAlignmentView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+    <com.smxy.hencoder.widget.MaterialEditText
+            android:hint="username"
+            app:met_title="username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
