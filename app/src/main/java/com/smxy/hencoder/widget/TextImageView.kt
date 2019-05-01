@@ -27,7 +27,7 @@ class TextImageView : View {
             "They are worked until they are almost dead. It looks like they never stop working. " +
             "I feel that those labour."
 
-    lateinit var mBitmap: Bitmap
+    var mBitmap: Bitmap
 
     constructor(context: Context, attr: AttributeSet) : super(context, attr) {
         mPaint.color = 0xff000000.toInt()

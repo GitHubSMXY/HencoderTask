@@ -2,6 +2,10 @@
 Hencoder课程练习
 
 ---
+## MaterialEditText.gif
+
+![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/MaterialEditText.gif)
+
 ## PieGraphView.png
 
 ![Alt text](https://github.com/GitHubSMXY/HencoderTask/blob/master/screen_shot/PieGraphView.png)
