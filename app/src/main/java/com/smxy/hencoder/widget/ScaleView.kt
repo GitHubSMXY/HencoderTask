@@ -20,7 +20,7 @@ class ScaleView : View {
     private val WRAP_HEIGHT = 400
 
     private var mPaint: Paint = Paint()
-    private val DASH_WIDTH = 20F
+    private var DASH_WIDTH = 20
     private val LINE_WIDTH = 2F
     private val MAX_SCALE = 9
     private lateinit var mRect: RectF
@@ -46,6 +46,7 @@ class ScaleView : View {
         POINT_LENGTH = typedArray.getDimensionPixelSize(R.styleable.ScaleView_sv_pointer_length, 100)
         POINT_WIDTH = typedArray.getDimensionPixelSize(R.styleable.ScaleView_sv_pointer_width, 4)
         SCALE_WIDTH = typedArray.getDimensionPixelSize(R.styleable.ScaleView_sv_scale_width, 4)
+        DASH_WIDTH = typedArray.getDimensionPixelSize(R.styleable.ScaleView_sv_dash_width, DASH_WIDTH)
         typedArray.recycle()
         mPaint.isAntiAlias = true
     }
@@ -107,7 +108,7 @@ class ScaleView : View {
         )
 
         //draw scale
-        mPaint.strokeWidth = DASH_WIDTH
+        mPaint.strokeWidth = DASH_WIDTH.toFloat()
 
         //dotted line setting
         mPaint.pathEffect = dashPathEffect

@@ -6,6 +6,7 @@
         <attr name="sv_pointer_length" format="dimension"/>
         <attr name="sv_pointer_width" format="dimension"/>
         <attr name="sv_scale_width" format="dimension"/>
+        <attr name="sv_dash_width" format="dimension"/>
         <attr name="sv_sweep_angle" format="float"/>
 
     </declare-styleable>
