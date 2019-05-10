@@ -45,7 +45,7 @@ class MaterialEditText : AppCompatEditText {
     constructor(context: Context, attributeSet: AttributeSet) : super(context, attributeSet) {
         val typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.MaterialEditText, 0, 0)
         val string = typedArray.getString(R.styleable.MaterialEditText_met_title)
-        mTitle = if (string.isEmpty()) "" else string
+        mTitle = string ?: ""
         typedArray.recycle()
 
         setPadding(paddingLeft, (paddingTop + S_TEXT_SIZE + S_TEXT_MARGIN).toInt(), paddingRight, paddingBottom)
@@ -57,7 +57,7 @@ class MaterialEditText : AppCompatEditText {
 
         addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
-                val isDisplayTitle = text.toString().isNotEmpty()
+                val isDisplayTitle = s.toString().isNotEmpty()
                 if (mIsDisplayTitle != isDisplayTitle) {
                     mIsDisplayTitle = isDisplayTitle
 
