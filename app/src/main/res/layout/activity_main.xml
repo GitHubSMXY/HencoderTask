@@ -6,57 +6,110 @@
         android:layout_height="match_parent">
 
     <!--<com.smxy.hencoder.widget.ScaleView-->
-            <!--android:layout_centerInParent="true"-->
-            <!--app:sv_progress="20"-->
-            <!--app:sv_scale_width="2px"-->
-            <!--app:sv_pointer_width="2px"-->
-            <!--app:sv_pointer_length="20px"-->
-            <!--android:layout_width="100px"-->
-            <!--app:sv_dash_width="14px"-->
-            <!--android:layout_height="100px"/>-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:sv_progress="20"-->
+    <!--app:sv_scale_width="2px"-->
+    <!--app:sv_pointer_width="2px"-->
+    <!--app:sv_pointer_length="20px"-->
+    <!--android:layout_width="100px"-->
+    <!--app:sv_dash_width="14px"-->
+    <!--android:layout_height="100px"/>-->
 
     <!--<com.smxy.hencoder.widget.ScaleView-->
-            <!--android:layout_centerInParent="true"-->
-            <!--app:sv_progress="50"-->
-            <!--app:sv_scale_width="3px"-->
-            <!--app:sv_pointer_width="8px"-->
-            <!--app:sv_pointer_length="160px"-->
-            <!--android:layout_width="500px"-->
-            <!--android:layout_height="500px"/>-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:sv_progress="50"-->
+    <!--app:sv_scale_width="3px"-->
+    <!--app:sv_pointer_width="8px"-->
+    <!--app:sv_pointer_length="160px"-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="500px"/>-->
 
     <!--<com.smxy.hencoder.widget.ScaleView2-->
-            <!--android:layout_centerInParent="true"-->
-            <!--app:sv_progress="10"-->
-            <!--app:sv_scale_width="3px"-->
-            <!--app:sv_pointer_width="8px"-->
-            <!--app:sv_pointer_length="160px"-->
-            <!--android:layout_width="500px"-->
-            <!--android:layout_height="500px"/>-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:sv_progress="10"-->
+    <!--app:sv_scale_width="3px"-->
+    <!--app:sv_pointer_width="8px"-->
+    <!--app:sv_pointer_length="160px"-->
+    <!--android:layout_width="500px"-->
+    <!--android:layout_height="500px"/>-->
 
     <!--<com.smxy.hencoder.widget.PieGraphView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
 
     <!--<com.smxy.hencoder.widget.AvaterPage-->
-            <!--android:layout_width="300dp"-->
-            <!--android:layout_height="300dp"/>-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="300dp"/>-->
     <!--<com.smxy.hencoder.widget.TextImageView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
 
     <!--<com.smxy.hencoder.widget.RoundImageView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
 
     <!--<com.smxy.hencoder.widget.TextAlignmentView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"/>-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
 
 
-    <com.smxy.hencoder.widget.MaterialEditText
-            android:hint="username"
-            app:met_title="username"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <!--<com.smxy.hencoder.widget.MaterialEditText-->
+    <!--android:hint="username"-->
+    <!--app:met_title="username"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
+
+    <com.smxy.hencoder.widget.TagLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.smxy.hencoder.widget.ColorTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </com.smxy.hencoder.widget.TagLayout>
 
 </LinearLayout>
